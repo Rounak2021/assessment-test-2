@@ -1,0 +1,77 @@
+<html>
+    <body>
+        <br/>
+        <br/>
+        <span><h1 align="center" style="color: green;">Registration Form</h1></span>
+
+        <form align="center">
+            <span style="color: blue;">Your First Name</span>
+            <input type="text" name="first_name" placeholder="First Name" required />
+           
+            <span style="color: blue;">Your Last Name</span>
+            <input type="text" name="last_name" placeholder="Last Name" required />
+            <br/>
+            <br/>
+            <span style="color: blue;">Please Select your gender</span>
+            <select name="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </select>
+            <br/>
+            <br/>
+            <span style="color: blue;">Enter Your Date of Birth</span>
+            <input type="date" name="dob" placeholder="Enter Date of Birth" required />
+            <br/>
+            <br/>
+            <span style="color: blue;">Do you have any disability?</span> &nbsp;&nbsp;&nbsp;
+            <span style="color: green;">Yes</span> &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="yes"  />
+            <span style="color: red;">No</span> &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="no"  />
+            <br/>
+            <br/>
+            <span style="color: blue;">Enter your phone number</span>
+            <input type="number" name="ph_number" placeholder="Phone Number" minlength="0" maxlength="10" required/>
+            <br/>
+            <br/>
+            <span style="color: blue;">Enter your Email ID</span>
+            <input type="email" name="email" placeholder="Your email" required />
+            <br/>
+            <span style="color: blue;">Enter your password</span>
+            <input type="password" name="pass" placeholder="Enter your password" required minlength="6" maxlength="10" />
+            <br/>
+            <br/>
+            <span style="color: blue;">Confirm your password</span>
+            <input type="password" name="cpass" placeholder="Enter your Password" required minlength="6" maxlength="10" />
+            <br/>
+            <br/>
+            <span style="color: blue;">Select City</span>
+            <select name="city" required>
+                <option value="kolkata">Kolkata</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="bengaluru">Bengaluru</option>
+            </select>
+            <br/>
+            <br/>
+            <span style="color: blue;">Input your Graduation Marks</span>
+            <input type="number" name="marks" placeholder="Marks" required min="0" max="100" />
+            <br/>
+            <br/>
+            <span style="color: blue;">Select Course</span>
+            <select name="course">
+                <option value="web">Web Development</option>
+                <option value="js">Javascript</option>
+                <option value="java">Java Developer</option>
+            </select>
+            <br/>
+            <br/>
+            <span style="color: blue;">Please Check this box</span>
+            <input type="checkbox" name="success" required />
+            <br/>
+            <br/>
+            <p style="color: red;">By clicking on the above box, you are agreeing to our <a href="" style="color: red;">Terms and Conditions</a></p>
+            <input type="submit" />
+        </form>
+    </body>
+</html>
